@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="374.0" prefWidth="319.9999000000025" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="prueba1.FXMLDocumentController">
+  <children>
+    <Button fx:id="button" layoutX="37.0" layoutY="293.0" onAction="#handleButtonAction" text="Click Me!" />
+    <Label id="" fx:id="label" layoutX="85.0" layoutY="325.0" minHeight="5.0" minWidth="69.0" prefHeight="20.999900000002526" prefWidth="69.0" />
+    <TextField fx:id="nombre1" layoutX="85.0" layoutY="73.0" prefWidth="200.0" />
+    <TextField fx:id="codigo1" layoutX="85.0" layoutY="128.0" prefWidth="200.0" />
+    <Text layoutX="28.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" />
+    <Text layoutX="28.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codigo" />
+    <Button id="button" fx:id="MostrarB" layoutX="212.0" layoutY="293.0" onAction="#handleButtonAction" text="Mostrar" />
+    <Button id="button" fx:id="AceptarB" layoutX="129.0" layoutY="293.0" onAction="#handleButtonAction" text="Aceptar" />
+  </children>
+</AnchorPane>
